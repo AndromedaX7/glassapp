@@ -1,0 +1,188 @@
+name: glassapp
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  marquee_flutter: ^0.1.4
+  cupertino_icons: ^0.1.3
+  provider: ^4.0.4
+  shared_preferences: ^0.5.6+2
+  shared_preferences_web: ^0.1.2+4
+  rxdart: ^0.21.0
+  dartin: ^0.1.5
+  dio: ^3.0.9
+  flutter_screenutil: ^1.0.2
+  city_pickers: ^0.1.30
+#  webview_flutter: ^0.3.19+8
+#  cached_network_image: ^2.0.0
+  json_annotation:
+  logger: ^0.8.3
+  permission_handler: ^5.0.0+hotfix.3
+  cached_network_image: ^2.0.0
+  bleflutter:
+    path: ../../workspaces/ble_flutter
+#  webviewopen:
+#    path: ../../toybox/web_view_open
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner:
+  json_serializable:
+
+
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - images/ic_shop_self.png
+    - images/2.0x/ic_shop_self.png
+    - images/3.0x/ic_shop_self.png
+    - images/ic_shop_taobao.png
+    - images/2.0x/ic_shop_taobao.png
+    - images/3.0x/ic_shop_taobao.png
+    - images/2.0x/bg1.png
+    - images/2.0x/dianchi_3.png
+    - images/2.0x/dushu.png
+    - images/2.0x/dushu1.png
+    - images/2.0x/dushumoshi.png
+    - images/2.0x/Group 2.png
+    - images/2.0x/Group 4.png
+    - images/2.0x/guaduan.png
+    - images/2.0x/icon_loation.png
+    - images/2.0x/jingyinguan.png
+    - images/2.0x/jingyinkai.png
+    - images/2.0x/lanya.png
+    - images/2.0x/lanya_1.png
+    - images/2.0x/lianjie.png
+    - images/2.0x/Mask.png
+    - images/2.0x/miantiguan.png
+    - images/2.0x/miantikai.png
+    - images/2.0x/Oval.png
+    - images/2.0x/qiehuan.png
+    - images/2.0x/search_bar_clear_icon.png
+    - images/2.0x/Shape.png
+    - images/2.0x/shichao.png
+    - images/2.0x/shichao1.png
+    - images/2.0x/shiren.png
+    - images/2.0x/shiren1.png
+    - images/2.0x/shirenmoshi.png
+    - images/2.0x/smartphone-111.png
+    - images/2.0x/teb_icon1.1.png
+    - images/2.0x/teb_icon1.png
+    - images/2.0x/teb_icon2.2.png
+    - images/2.0x/teb_icon2.png
+    - images/2.0x/teb_icon3.3.png
+    - images/2.0x/teb_icon3.png
+    - images/2.0x/wifidayuanicon.png
+    - images/2.0x/wifi_01.png
+    - images/2.0x/wifi_02.png
+    - images/2.0x/wifi_2.png
+    - images/2.0x/yangjing.png
+    - images/2.0x/zaixianfuwu_4.png
+    - images/2.0x/分组 2.png
+    - images/3.0x/bg1.png
+    - images/3.0x/dianchi_3.png
+    - images/3.0x/dushu.png
+    - images/3.0x/dushu1.png
+    - images/3.0x/dushumoshi.png
+    - images/3.0x/Group 2.png
+    - images/3.0x/Group 4.png
+    - images/3.0x/guaduan.png
+    - images/3.0x/icon_loation.png
+    - images/3.0x/jingyinguan.png
+    - images/3.0x/jingyinkai.png
+    - images/3.0x/lanya.png
+    - images/3.0x/lanya_1.png
+    - images/3.0x/lianjie.png
+    - images/3.0x/Mask.png
+    - images/3.0x/miantiguan.png
+    - images/3.0x/miantikai.png
+    - images/3.0x/Oval.png
+    - images/3.0x/qiehuan.png
+    - images/3.0x/search_bar_clear_icon.png
+    - images/3.0x/Shape.png
+    - images/3.0x/shichao.png
+    - images/3.0x/shichao1.png
+    - images/3.0x/shiren.png
+    - images/3.0x/shiren1.png
+    - images/3.0x/shirenmoshi.png
+    - images/3.0x/smartphone-111.png
+    - images/3.0x/teb_icon1.1.png
+    - images/3.0x/teb_icon1.png
+    - images/3.0x/teb_icon2.2.png
+    - images/3.0x/teb_icon2.png
+    - images/3.0x/teb_icon3.3.png
+    - images/3.0x/teb_icon3.png
+    - images/3.0x/wifidayuanicon.png
+    - images/3.0x/wifi_01.png
+    - images/3.0x/wifi_02.png
+    - images/3.0x/wifi_2.png
+    - images/3.0x/yangjing.png
+    - images/3.0x/zaixianfuwu_4.png
+    - images/3.0x/分组 2.png
+    - images/bg1.png
+    - images/dianchi_3.png
+    - images/dushu.png
+    - images/dushu1.png
+    - images/dushumoshi.png
+    - images/Group 2.png
+    - images/Group 3.png
+    - images/Group 4.png
+    - images/guaduan.png
+    - images/icon_loation.png
+    - images/jingyinguan.png
+    - images/jingyinkai.png
+    - images/lanya.png
+    - images/lanya_1.png
+    - images/lianjie.png
+    - images/Mask.png
+    - images/miantiguan.png
+    - images/miantikai.png
+    - images/Oval.png
+    - images/qiehuan.png
+    - images/search_bar_clear_icon.png
+    - images/Shape.png
+    - images/shichao.png
+    - images/shichao1.png
+    - images/shiren.png
+    - images/shiren1.png
+    - images/shirenmoshi.png
+    - images/smartphone-111.png
+    - images/teb_icon1.1.png
+    - images/teb_icon1.png
+    - images/teb_icon2.2.png
+    - images/teb_icon2.png
+    - images/teb_icon3.3.png
+    - images/teb_icon3.png
+    - images/tupian.png
+    - images/wifidayuanicon.png
+    - images/wifi_01.png
+    - images/wifi_02.png
+    - images/wifi_2.png
+    - images/yangjing.png
+    - images/zaixianfuwu_4.png
+    - images/分组 2.png
+    - images/微信图片_20200414171111.png
+    - images/ic_shop.png
+    - images/ic_shop.png
+    - images/ic_audio_book.png
+    - images/ic_message.png
+    - images/ic_ads.png
+    - images/ic_more_menu_bar.png
+    - images/ic_empty.png
+    - images/ic_shop.png
+    - images/ic_online.png
+
